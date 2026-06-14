@@ -1,7 +1,7 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "url": "https://raw.githubusercontent.com/shanehans/HelioLogix-firmware/main/HelioLogix.ino.bin",
-  "size": 1446816,
-  "sha256": "ee91130b78d9eeddfc3ccdbcb12ae3ced3a8305ccfcd50593e06e97242504918",
-  "notes": "v1.0.4 - OTA reliability (verify end result, error/timeout handling)."
+  "size": 1446848,
+  "sha256": "266d84d11972815e3b9218d2c450a593c3f9528fc83f41483761a61d266db323",
+  "notes": "v1.0.5 - keep BLE link alive during OTA approval/flash (no idle drop)."
 }
