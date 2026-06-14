@@ -1,7 +1,7 @@
-﻿{
-    "version":  "1.0.1",
-    "url":  "https://raw.githubusercontent.com/shanehans/HelioLogix-firmware/main/HelioLogix.ino.bin",
-    "size":  1446320,
-    "sha256":  "37096f0a2cba817f7a1f34d45d3e462608dd0c63bb6b52e6a450d48dafe2b906",
-    "notes":  "v1.0.1 - first over-the-air delivered build (OTA test)."
+{
+  "version": "1.0.1",
+  "url": "https://raw.githubusercontent.com/shanehans/HelioLogix-firmware/main/HelioLogix.ino.bin",
+  "size": 1446320,
+  "sha256": "37096f0a2cba817f7a1f34d45d3e462608dd0c63bb6b52e6a450d48dafe2b906",
+  "notes": "v1.0.1 - first over-the-air delivered build (OTA test)."
 }
