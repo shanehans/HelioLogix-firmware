@@ -1,7 +1,7 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "url": "https://raw.githubusercontent.com/shanehans/HelioLogix-firmware/main/HelioLogix.ino.bin",
   "size": 1446816,
-  "sha256": "86ff191d9ce63fd548dce9306b8ccb2c9b68e97949173c9eac4772555dca7b82",
-  "notes": "v1.0.3 - OLED update screen formatting (progress bar)."
+  "sha256": "ee91130b78d9eeddfc3ccdbcb12ae3ced3a8305ccfcd50593e06e97242504918",
+  "notes": "v1.0.4 - OTA reliability (verify end result, error/timeout handling)."
 }
