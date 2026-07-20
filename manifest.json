@@ -1,7 +1,7 @@
 {
-  "version": "1.0.9",
+  "version": "1.0.10",
   "url": "https://raw.githubusercontent.com/shanehans/HelioLogix-firmware/main/HelioLogix.ino.bin",
-  "size": 1452464,
-  "sha256": "8910f79c37dd268b07e07ebe49fc9e045b4114ead4ea0ddd2406fe7524ce8353",
-  "notes": "v1.0.9 - keeps ~5.5 months of feed + battery-voltage logs on the timer (up from days). IMPORTANT: this update does a one-time reset of the old on-device history - open the app and let it sync this feeder first so nothing is lost."
+  "size": 1452896,
+  "sha256": "f73a1fb39948400ff4ac58af1c47afe603f7bee06367c869e735a0829c2cec19",
+  "notes": "v1.0.10 - adds a firmware build fingerprint + records the date this timer was flashed (shown in the app under the firmware version). Preserves your existing feed + battery logs - no history reset."
 }
