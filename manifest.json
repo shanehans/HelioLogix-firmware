@@ -1,7 +1,8 @@
 {
-  "version": "1.0.10",
+  "version": "1.1.1",
   "url": "https://raw.githubusercontent.com/shanehans/HelioLogix-firmware/main/HelioLogix.ino.bin",
-  "size": 1452896,
-  "sha256": "f73a1fb39948400ff4ac58af1c47afe603f7bee06367c869e735a0829c2cec19",
-  "notes": "v1.0.10 - adds a firmware build fingerprint + records the date this timer was flashed (shown in the app under the firmware version). Preserves your existing feed + battery logs - no history reset."
+  "size": 2286848,
+  "sha256": "adcbf7b39ae14e34a45c539ce0de998827fbeac51e5cb5bd52927e4326f9cdc3",
+  "signature": "304502200710d88999dc8561ce330cc572e2bc4372bb0ac1bec3aaa50ef8f7888703fdea022100d7c4a8463f5352a5724daae216df974faedb2a6fa14c2c31a5cb796bb0790c43",
+  "notes": "v1.1.1 - more reliable Bluetooth reconnection after an app or firmware update. No settings or feed/battery history change."
 }
