@@ -1,8 +1,8 @@
 {
-  "version": "1.7.3",
+  "version": "1.7.4",
   "url": "https://raw.githubusercontent.com/shanehans/HelioLogix-firmware/main/HelioLogix.ino.bin",
-  "size": 2264592,
-  "sha256": "54ec7c67bfbd4fea7c6c29676a426eb4a0bf4e5ec2a2b1631cab2ac453aa80ab",
-  "signature": "304502207477e25413e7020efdfe6d271568a23571b6810498d910ad8ee85583b9d0bef10221008c90fdf6d0e78580f935406cfac2e083f62c7222d9235cb52e059026694b3bbb",
-  "notes": "BENCH-ONLY T2 rollback-proof build - hangs in setup() by design. If you can read this outside the T2 window it must be reverted NOW."
+  "size": 2275744,
+  "sha256": "df68413b67920b80383c7f663559535d651210f489ef8e9875b78d8f7e95c056",
+  "signature": "3045022100f0a41c57328a27b0d8b3b374ac496a3b0c947d7cb7a4e9fbea953b51e551bb5b022003ee45bf261b037b99af70a8f69f0a2cf9187cf5199656efaf1f91fe07e12e6e",
+  "notes": "Bench T4 target (Phase 1 rollback verification ladder)."
 }
