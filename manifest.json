@@ -1,8 +1,8 @@
 {
-  "version": "1.7.4",
+  "version": "1.6.1",
   "url": "https://raw.githubusercontent.com/shanehans/HelioLogix-firmware/main/HelioLogix.ino.bin",
-  "size": 2275744,
-  "sha256": "df68413b67920b80383c7f663559535d651210f489ef8e9875b78d8f7e95c056",
-  "signature": "3045022100f0a41c57328a27b0d8b3b374ac496a3b0c947d7cb7a4e9fbea953b51e551bb5b022003ee45bf261b037b99af70a8f69f0a2cf9187cf5199656efaf1f91fe07e12e6e",
-  "notes": "Bench T4 target (Phase 1 rollback verification ladder)."
+  "size": 2273792,
+  "sha256": "522d6d00c64415e3f8ebd3898b324e143604334000fff5c6b54fdfb28494baf3",
+  "signature": "3045022100cd419bb287370b44208c313e136e444160915cf1762b2f98ac812cbe739426420220349dc6565e6633e6d70b61ecc363c380da973728d6480d95bfadbe6b4058b493",
+  "notes": "v1.6.1 - Bluetooth first-connect fix, plus control-point hardening: truncated commands are refused instead of half-applied, responses carry a request tag so a stale reply cannot be mistaken for a fresh one, and the test spin is rate limited. No settings or feed/battery history change."
 }
