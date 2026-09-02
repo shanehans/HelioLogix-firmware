@@ -1,8 +1,8 @@
 {
-  "version": "1.7.12",
+  "version": "1.7.11",
   "url": "https://raw.githubusercontent.com/shanehans/HelioLogix-firmware/main/HelioLogix.ino.bin",
-  "size": 2276992,
-  "sha256": "218128c319507f21f41ce227f4196cd0e3e3bbd74a35eea310afaed94549f6bf",
-  "signature": "304502210085224945f5fcd1a74fc5d5a77131edc39ac2a3b9a79f321021a0f9e69c4f15ee0220324519db31eff75f7713d25981d89b7bc632b2e5cd772d11363ed7981ce54ee6",
-  "notes": "BENCH-ONLY v1.7.12 - T-735 test build on the HL-750 fix. Deliberately reports setup as never completed. Do not install unless you are running the bench test."
+  "size": 2277232,
+  "sha256": "9a90ad1bb54ba636b1100ca2b0c18367c44b0ad0ddb614cf87950d6999257297",
+  "signature": "3045022100e004b761b418667d4d27c60ef22c294f42d49df61f88228e6fdfeef89d85d41d022000cd6d0324a7282529627aeea40742f6226a6a8c3f534ca163abe489f44c31eb",
+  "notes": "v1.7.11 - Twenty-three fixes across the whole firmware, every one verified on hardware. Firmware updates now roll back on their own if a new build fails to boot or breaks setup, proven on the bench from a unit with a dead clock battery. A dead or unset clock can no longer freeze the timer, run the motor at wrong times, or make the setup buttons drop presses; the timer stays reachable by phone and heals itself. Battery: the setup screen, the test-spin screen and a stuck key no longer keep the timer awake, and a parked unit sleeps 15x longer. WiFi: sessions are strictly time-bounded so a sync can never delay a feed, a stalled connection can never hang the timer, and remote feed commands run after the radio is down. Factory reset now clears the previous owner's WiFi and history. Feeds cannot fire during a firmware update. Storage faults are diagnosed instead of silent. No settings or schedule changes required."
 }
