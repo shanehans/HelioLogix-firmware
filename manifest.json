@@ -1,8 +1,8 @@
 {
-  "version": "1.7.10",
+  "version": "1.7.12",
   "url": "https://raw.githubusercontent.com/shanehans/HelioLogix-firmware/main/HelioLogix.ino.bin",
-  "size": 2277248,
-  "sha256": "61b3e2bad5dd867440efc21bd70facee57e9f429265b6b4ff760aad4a3430a79",
-  "signature": "304402207f697e1cdd05b94a6a98bbc63a9bf1f668a97b898d6b3c071a707ffcf0b3ba9b02204db82df4be79a5d037242c06dd0b3554b2de4efc795eb5fa68268beb92176165",
-  "notes": "BENCH-ONLY v1.7.10 - T-735 re-run diagnostic build. Deliberately reports setup as never completed. Do not install unless you are running the bench test."
+  "size": 2276992,
+  "sha256": "218128c319507f21f41ce227f4196cd0e3e3bbd74a35eea310afaed94549f6bf",
+  "signature": "304502210085224945f5fcd1a74fc5d5a77131edc39ac2a3b9a79f321021a0f9e69c4f15ee0220324519db31eff75f7713d25981d89b7bc632b2e5cd772d11363ed7981ce54ee6",
+  "notes": "BENCH-ONLY v1.7.12 - T-735 test build on the HL-750 fix. Deliberately reports setup as never completed. Do not install unless you are running the bench test."
 }
