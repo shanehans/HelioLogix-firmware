@@ -1,8 +1,8 @@
 {
-  "version": "1.6.1",
+  "version": "1.7.10",
   "url": "https://raw.githubusercontent.com/shanehans/HelioLogix-firmware/main/HelioLogix.ino.bin",
-  "size": 2273792,
-  "sha256": "522d6d00c64415e3f8ebd3898b324e143604334000fff5c6b54fdfb28494baf3",
-  "signature": "3045022100cd419bb287370b44208c313e136e444160915cf1762b2f98ac812cbe739426420220349dc6565e6633e6d70b61ecc363c380da973728d6480d95bfadbe6b4058b493",
-  "notes": "v1.6.1 - Bluetooth first-connect fix, plus control-point hardening: truncated commands are refused instead of half-applied, responses carry a request tag so a stale reply cannot be mistaken for a fresh one, and the test spin is rate limited. No settings or feed/battery history change."
+  "size": 2277248,
+  "sha256": "61b3e2bad5dd867440efc21bd70facee57e9f429265b6b4ff760aad4a3430a79",
+  "signature": "304402207f697e1cdd05b94a6a98bbc63a9bf1f668a97b898d6b3c071a707ffcf0b3ba9b02204db82df4be79a5d037242c06dd0b3554b2de4efc795eb5fa68268beb92176165",
+  "notes": "BENCH-ONLY v1.7.10 - T-735 re-run diagnostic build. Deliberately reports setup as never completed. Do not install unless you are running the bench test."
 }
