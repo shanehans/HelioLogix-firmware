@@ -1,8 +1,8 @@
 {
-  "version": "1.7.11",
+  "version": "1.7.13",
   "url": "https://raw.githubusercontent.com/shanehans/HelioLogix-firmware/main/HelioLogix.ino.bin",
-  "size": 2277232,
-  "sha256": "9a90ad1bb54ba636b1100ca2b0c18367c44b0ad0ddb614cf87950d6999257297",
-  "signature": "3045022100e004b761b418667d4d27c60ef22c294f42d49df61f88228e6fdfeef89d85d41d022000cd6d0324a7282529627aeea40742f6226a6a8c3f534ca163abe489f44c31eb",
-  "notes": "v1.7.11 - Twenty-three fixes across the whole firmware, every one verified on hardware. Firmware updates now roll back on their own if a new build fails to boot or breaks setup, proven on the bench from a unit with a dead clock battery. A dead or unset clock can no longer freeze the timer, run the motor at wrong times, or make the setup buttons drop presses; the timer stays reachable by phone and heals itself. Battery: the setup screen, the test-spin screen and a stuck key no longer keep the timer awake, and a parked unit sleeps 15x longer. WiFi: sessions are strictly time-bounded so a sync can never delay a feed, a stalled connection can never hang the timer, and remote feed commands run after the radio is down. Factory reset now clears the previous owner's WiFi and history. Feeds cannot fire during a firmware update. Storage faults are diagnosed instead of silent. No settings or schedule changes required."
+  "size": 2278128,
+  "sha256": "61b7632ca5aaa7e0fa1bb7ea37f8f1f2646da0859add0180318d04601533f94c",
+  "signature": "3045022100ad82ee69a3b0c3fed3da43d0dbd301f1c14de48087cc97e9c35f6829877143490220737978468d21f5847af8ca663d3ea6c1600fa589053d1d7f935fb1c2a3d76ff6",
+  "notes": "v1.7.13 - Remote \"feed now\" over WiFi now arrives when it says it will. In the every-5-minutes mode the feeder really does check in every 5 minutes (it was checking in every 15 at best), and check-ins are no longer skipped at random, so a queued feed lands instead of expiring. A feed request now expires after 35 minutes instead of 15, and the app tells you when a feed can't be delivered - while Bluetooth is connected, or in after-each-feed mode - and offers to spin the feeder over Bluetooth instead. Remote feeds no longer double up with a scheduled feed, and a skipped scheduled feed no longer blocks a remote one. Re-entering WiFi settings now retries immediately instead of waiting out a backoff. Firmware updates: a completed setup wizard no longer confirms a new build on the spot - the next boot does - so a broken update still rolls back. No settings or schedule changes required."
 }
