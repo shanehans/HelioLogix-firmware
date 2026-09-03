@@ -1,8 +1,8 @@
 {
-  "version": "1.7.13",
+  "version": "1.7.18",
   "url": "https://raw.githubusercontent.com/shanehans/HelioLogix-firmware/main/HelioLogix.ino.bin",
-  "size": 2278128,
-  "sha256": "61b7632ca5aaa7e0fa1bb7ea37f8f1f2646da0859add0180318d04601533f94c",
-  "signature": "3045022100ad82ee69a3b0c3fed3da43d0dbd301f1c14de48087cc97e9c35f6829877143490220737978468d21f5847af8ca663d3ea6c1600fa589053d1d7f935fb1c2a3d76ff6",
-  "notes": "v1.7.13 - Remote \"feed now\" over WiFi now arrives when it says it will. In the every-5-minutes mode the feeder really does check in every 5 minutes (it was checking in every 15 at best), and check-ins are no longer skipped at random, so a queued feed lands instead of expiring. A feed request now expires after 35 minutes instead of 15, and the app tells you when a feed can't be delivered - while Bluetooth is connected, or in after-each-feed mode - and offers to spin the feeder over Bluetooth instead. Remote feeds no longer double up with a scheduled feed, and a skipped scheduled feed no longer blocks a remote one. Re-entering WiFi settings now retries immediately instead of waiting out a backoff. Firmware updates: a completed setup wizard no longer confirms a new build on the spot - the next boot does - so a broken update still rolls back. No settings or schedule changes required."
+  "size": 2280096,
+  "sha256": "21da248e4bb933fa5ca907852848613c697c8b97acb0677530e56810ed33f2e0",
+  "signature": "3045022100e2958fa99b0d7057d6249675c4445e407126471a70ff346a08f78c610d2b1c3a02207911605b1fbde4171629b88b3018f4e6da80345df5351fb30e1d0e021de47db8",
+  "notes": "v1.7.18 - A remote feed now spins within a minute or two instead of 15-20 minutes, and the app tells you when it will happen before you send it. Check-in cadences are yours to keep: every option, including every minute, can run until you change it, or you can set it to drop back on its own. The feeder reports its next scheduled feed, its network name and its cadence on every check-in, so the app can show them without a Bluetooth connection. Settings can be changed over WiFi. The test-spin limiter is gone: spins are only refused while the motor is actually turning or during a firmware update. Also: a schedule change that fails to save now says so instead of reporting success, feed times are computed in UTC so the March daylight-saving jump can no longer hide a 3 AM feed, and a unit that cannot reach its network sleeps through the backoff instead of waking every minute."
 }
